@@ -1,0 +1,289 @@
+body {
+    margin: auto;    
+    
+} 
+/* styling of the div containing all elements */
+
+.contianer{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;    
+}
+
+/* styling of the Logo div */
+
+h1{
+    font-size: 30px;
+    width: 169.28px;
+    height: 24px;
+    padding-left: 20px;
+}
+.header-img{
+    margin: auto;
+    background-image: url("ferks-guare-KEZdWfYD-ow-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 167px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+p {
+    padding-left: 20px;
+    width: 275.46px;
+    height: 8px;
+}
+
+/* styling pizza emoji */
+
+.pizza-icon {
+    font-size: 80px;
+    padding-top: 10px;
+}
+
+/* styling menu Item */
+
+.pizza-item{
+    position: relative;
+    margin: 30px auto;
+    width: 508px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Smooch Sans', sans-serif;
+    border-bottom: 2px solid #D2D2D2;
+}
+
+.item-price {
+    
+    color: #000000;
+    font-size: 24;
+    font-weight: bold;    
+}
+
+.item-title{   
+    margin-top: 4px;
+    padding-left: 18px;
+    font-size: 28px;
+}
+
+.item-ingredients{
+    width: 358px;
+    height: 24px;
+    font-size: 16px;
+}
+
+.fa-solid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #DEDEDE;
+    border-radius: 100px;
+    color: #3C3C3C;
+    
+}
+
+/* styling order section */
+.total-item{
+    display: flex;
+    flex-direction: row;
+}
+.order-title{   
+   
+    width: 90px;
+    height: 17px;
+    font-size: 28px;
+    color: #000000;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.order-summary {
+    flex-direction: column;
+    margin: 30px auto;
+    width: 508px;
+    min-height: 140px;
+    font-family: 'Smooch Sans', sans-serif;
+    border-bottom: 2px solid #393333;
+}
+#order-list{
+    display: none;
+}
+.order-item{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.total-order-view{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+#remove-btn{
+    border: none;
+    margin-top: 10px;
+    width: 50px;
+    height: 22px;
+    color: #BBBBBB;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.order-price {
+    margin-top: 3px;
+    margin-right: 3px;
+    width: 19px;
+    height: 24px;    
+    margin-left: auto;
+}
+
+/* Total price  */
+
+.total-item{
+    margin-top: 10px;
+    display: flex;
+    width: 500px;
+}
+
+.total-price{
+    width: 358;
+    height: 28px;
+    margin-top: 4px;
+    padding-left: 18px;
+    font-size: 28px;
+}
+
+#complete-btn{
+    border: none;
+    border-radius: 25px;
+    width: 508px;
+    height: 60px;
+    background-color: #16DB99;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Form Styling */
+
+#card-form{
+    display: none;
+}
+.form-title{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+.pay-form{
+    border: 3px solid #FFFFFF;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 480.24px;
+    height: 350px;
+    margin: auto;
+    gap: 5px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    background-color: #FFFFFF;
+}
+.form-input{
+    width: 440px;
+    height: 61px;
+    border: 1px solid #757575;
+    border-radius: 3px;
+    padding-left: 10px;
+    color: #757575;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .hide-border-bottom{
+    margin: 30px auto;
+    width: 508px;
+    min-height: 140px;
+    border: none;
+  } 
+  #pay-btn{
+    border: none;
+    width: 450px;
+    height: 60px;
+    background-color: #16DB99;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .form-input::placeholder{
+    color: #757575;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    
+
+  }
+
+/* Confirmation Message */
+.confirmation-message{
+    width: 504px;
+    height: 75px;
+    font-family: 'Rubik', sans-serif;  
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-size: 26px;
+    align-content: center;
+    padding-top: 40px;
+}
+
+/* Buttons Effects */
+
+#complete-btn:hover,
+#pay-btn:hover{
+    background-color: rgb(116, 240, 116);
+}
+
+#complete-btn:active,
+#pay-btn:active{
+    background-color: #023121;
+}
+
+ #remove-btn:hover{
+        background-color: #000000;
+        color: white;
+}
+
+
+.fa-solid, #remove-btn:active{
+    background-color: #DEDEDE;
+    color: #393333;
+}
+
+.fa-solid:hover{
+    background-color: #000000;
+        color: white;
+}
+.fa-solid:active{
+    background-color: #DEDEDE;
+    color: #393333;
+}
+
+
